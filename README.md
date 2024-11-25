@@ -6,9 +6,11 @@ How to run this code:
 2. cd to this directory
 
 **If you want to run this with Gazebo Harmonic:**
+
 3. ```docker compose build gz_cam_harmonic```
 4. ```docker compose up gz_cam_harmonic```
 
 **If you want to run this with Gazebo Garden:**
+
 5. ```docker compose build gz_cam_garden```
 6. ```docker compose up gz_cam_garden``` 
