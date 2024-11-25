@@ -1,10 +1,10 @@
 name: robot_sim
 services:
-  gz_cam_harmonic:
+  gz_cam_fortress:
     build:
       context: .
       dockerfile: ./Dockerfile
-      target: dev_harmonic
+      target: dev_fortress
     # Interactive shell
     stdin_open: true
     tty: true
@@ -35,30 +35,3 @@ services:
       - .:/simulation # contains project files
       - /tmp/.X11-unix:/tmp/.X11-unix:rw # allows graphical programs in the container
       - /dev/dri:/dev/dri # fixes a MESA error
-  
-  # Base ROS2 humble and gazebo image
-  ros_humble_gazebo:
-    build:
-      context: .
-      dockerfile: ./Dockerfile
-      target: gazebo
-    # Interactive shell
-    stdin_open: true
-    tty: true
-    # Give user rights
-    user: ros
-    # Networking and IPC for ROS2
-    environment:
-      - DISPLAY=${DISPLAY}
-    volumes:
-      - .:/simulation # contains project files
-      - /tmp/.X11-unix:/tmp/.X11-unix:rw # allows graphical programs in the container
-      - /dev/dri:/dev/dri # fixes a MESA error
-  
-  # Extends ros and gazebo with some developer tools
-  gz_cam:
-    extends: ros_humble_gazebo
-    build:
-      context: .
-      dockerfile: ./Dockerfile
-      target: dev

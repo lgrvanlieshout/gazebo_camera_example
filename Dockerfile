@@ -74,7 +74,7 @@ ENV DEBIAN_FRONTEND=
 ###########################################
 #  Base + Gazebo harmonic image
 ###########################################
-FROM base AS gazebo_harmonic
+FROM base AS gazebo_fortress
 
 ENV DEBIAN_FRONTEND=noninteractive
 
@@ -98,7 +98,7 @@ ENV DEBIAN_FRONTEND=
 ###########################################
 #  Develop image for gazebo harmonic
 ###########################################
-FROM gazebo_harmonic AS dev_harmonic
+FROM gazebo_fortress AS dev_fortress
 
 ENV DEBIAN_FRONTEND=noninteractive
 
