@@ -1,0 +1,9 @@
+/simulation/build/camera/CMakeFiles/uninstall.dir
+/simulation/build/camera/CMakeFiles/camera_uninstall.dir
+/simulation/build/camera/CMakeFiles/test.dir
+/simulation/build/camera/CMakeFiles/edit_cache.dir
+/simulation/build/camera/CMakeFiles/rebuild_cache.dir
+/simulation/build/camera/CMakeFiles/list_install_components.dir
+/simulation/build/camera/CMakeFiles/install.dir
+/simulation/build/camera/CMakeFiles/install/local.dir
+/simulation/build/camera/CMakeFiles/install/strip.dir

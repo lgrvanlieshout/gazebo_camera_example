@@ -1,0 +1,119 @@
+<?xml version= "1.0" ?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:macro name="box" params="mass x y z color *origin">
+    <inertial>
+      <xacro:insert_block name="origin"/>
+      <mass value="${mass}" />
+      <inertia ixx="${(1/12) * mass * (y*y+z*z)}" ixy="0.0" ixz="0.0"
+              iyy="${(1/12) * mass * (x*x+z*z)}" iyz="0.0"
+              izz="${(1/12) * mass * (x*x+y*y)}" />
+    </inertial>
+    <visual>
+      <xacro:insert_block name="origin"/>
+      <geometry>
+        <box size="${x} ${y} ${z}" />
+      </geometry>
+      <material name="${color}" />
+    </visual>
+    <collision>
+      <xacro:insert_block name="origin"/>
+      <geometry>
+        <box size="${x} ${y} ${z}" />
+      </geometry>
+    </collision>
+  </xacro:macro>
+  
+  <xacro:macro name="box_visual" params="x y z color *origin">
+    <visual>
+      <xacro:insert_block name="origin"/>
+      <geometry>
+        <box size="${x} ${y} ${z}" />
+      </geometry>
+      <material name="${color}" />
+    </visual>
+    <collision>
+      <xacro:insert_block name="origin"/>
+      <geometry>
+        <box size="${x} ${y} ${z}" />
+      </geometry>
+    </collision>
+  </xacro:macro>
+  
+  <xacro:macro name="cylinder" params="mass radius height color *origin">
+    <inertial>
+      <xacro:insert_block name="origin"/>
+      <mass value="${mass}" />
+      <inertia ixx="${(1/12) * mass * (3*radius*radius + height*height)}" ixy="0.0" ixz="0.0"
+               iyy="${(1/12) * mass * (3*radius*radius + height*height)}" iyz="0.0"
+               izz="${(1/2) * mass * radius * radius}" />
+    </inertial>
+    <visual>
+      <xacro:insert_block name="origin"/>
+      <geometry>
+        <cylinder radius="${radius}" length="${height}" />
+      </geometry>
+      <material name="${color}" />
+    </visual>
+    <collision>
+      <xacro:insert_block name="origin"/>
+      <geometry>
+        <cylinder radius="${radius}" length="${height}" />
+      </geometry>
+    </collision>
+  </xacro:macro>
+  
+  <xacro:macro name="cylinder_visual" params="radius height color *origin">
+    <visual>
+      <xacro:insert_block name="origin"/>
+      <geometry>
+        <cylinder radius="${radius}" length="${height}" />
+      </geometry>
+      <material name="${color}" />
+    </visual>
+    <collision>
+      <xacro:insert_block name="origin"/>
+      <geometry>
+        <cylinder radius="${radius}" length="${height}" />
+      </geometry>
+    </collision>
+  </xacro:macro>
+  
+  <xacro:macro name="ball" params="mass radius color *origin">
+    <inertial>
+      <xacro:insert_block name="origin"/>
+      <mass value="${mass}" />
+      <inertia ixx="${(2/5) * mass * radius * radius}" ixy="0.0" ixz="0.0"
+               iyy="${(2/5) * mass * radius * radius}" iyz="0.0"
+               izz="${(2/5) * mass * radius * radius}" />
+    </inertial>
+    <visual>
+      <xacro:insert_block name="origin"/>
+      <geometry>
+        <sphere radius="${radius}" />
+      </geometry>
+      <material name="${color}" />
+    </visual>
+    <collision>
+      <xacro:insert_block name="origin"/>
+      <geometry>
+        <sphere radius="${radius}" />
+      </geometry>
+    </collision>
+  </xacro:macro>
+  
+  <xacro:macro name="ball_visual" params="radius color *origin">
+    <visual>
+      <xacro:insert_block name="origin"/>
+      <geometry>
+        <sphere radius="${radius}" />
+      </geometry>
+      <material name="${color}" />
+    </visual>
+    <collision>
+      <xacro:insert_block name="origin"/>
+      <geometry>
+        <sphere radius="${radius}" />
+      </geometry>
+    </collision>
+  </xacro:macro>
+</robot>

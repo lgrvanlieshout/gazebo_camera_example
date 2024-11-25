@@ -1,0 +1,69 @@
+[0.007s] Invoking command in '/simulation/build/camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /simulation/src/camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/simulation/install/camera
+[0.054s] -- The C compiler identification is GNU 11.4.0
+[0.096s] -- The CXX compiler identification is GNU 11.4.0
+[0.101s] -- Detecting C compiler ABI info
+[0.151s] -- Detecting C compiler ABI info - done
+[0.159s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.160s] -- Detecting C compile features
+[0.160s] -- Detecting C compile features - done
+[0.163s] -- Detecting CXX compiler ABI info
+[0.225s] -- Detecting CXX compiler ABI info - done
+[0.232s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.232s] -- Detecting CXX compile features
+[0.233s] -- Detecting CXX compile features - done
+[0.236s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.340s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.380s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.397s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.400s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.404s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.430s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.451s] -- Found ros_gz: 0.244.11 (/opt/ros/humble/share/ros_gz/cmake)
+[0.452s] -- Found ros_gz_sim: 0.244.11 (/opt/ros/humble/share/ros_gz_sim/cmake)
+[0.484s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.485s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.586s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.611s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.641s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.649s] -- Looking for pthread.h
+[0.702s] -- Looking for pthread.h - found
+[0.702s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.763s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.764s] -- Found Threads: TRUE  
+[0.799s] -- Found ros_gz_bridge: 0.244.11 (/opt/ros/humble/share/ros_gz_bridge/cmake)
+[0.889s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.890s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.938s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.939s] -- Added test 'lint_cmake' to check CMake code style
+[0.939s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.940s] -- Added test 'xmllint' to check XML markup files
+[0.941s] -- Configuring done
+[0.943s] -- Generating done
+[0.944s] -- Build files have been written to: /simulation/build/camera
+[0.951s] Invoked command in '/simulation/build/camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /simulation/src/camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/simulation/install/camera
+[0.952s] Invoking command in '/simulation/build/camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /simulation/build/camera -- -j20 -l20
+[0.981s] Invoked command in '/simulation/build/camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /simulation/build/camera -- -j20 -l20
+[1.000s] Invoking command in '/simulation/build/camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /simulation/build/camera
+[1.004s] -- Install configuration: ""
+[1.004s] -- Execute custom install script
+[1.004s] -- Symlinking: /simulation/install/camera/share/camera/description/camera.urdf.xacro
+[1.009s] -- Symlinking: /simulation/install/camera/share/camera/description/materials.xacro
+[1.013s] -- Symlinking: /simulation/install/camera/share/camera/description/shapes.xacro
+[1.020s] -- Symlinking: /simulation/install/camera/share/camera/launch/camera.launch.py
+[1.024s] -- Symlinking: /simulation/install/camera/share/camera/worlds/ground_plane.world
+[1.029s] -- Symlinking: /simulation/install/camera/share/ament_index/resource_index/package_run_dependencies/camera
+[1.034s] -- Symlinking: /simulation/install/camera/share/ament_index/resource_index/parent_prefix_path/camera
+[1.038s] -- Symlinking: /simulation/install/camera/share/camera/environment/ament_prefix_path.sh
+[1.043s] -- Symlinking: /simulation/install/camera/share/camera/environment/ament_prefix_path.dsv
+[1.050s] -- Symlinking: /simulation/install/camera/share/camera/environment/path.sh
+[1.056s] -- Symlinking: /simulation/install/camera/share/camera/environment/path.dsv
+[1.062s] -- Symlinking: /simulation/install/camera/share/camera/local_setup.bash
+[1.067s] -- Symlinking: /simulation/install/camera/share/camera/local_setup.sh
+[1.071s] -- Symlinking: /simulation/install/camera/share/camera/local_setup.zsh
+[1.076s] -- Symlinking: /simulation/install/camera/share/camera/local_setup.dsv
+[1.082s] -- Symlinking: /simulation/install/camera/share/camera/package.dsv
+[1.087s] -- Symlinking: /simulation/install/camera/share/ament_index/resource_index/packages/camera
+[1.091s] -- Symlinking: /simulation/install/camera/share/camera/cmake/cameraConfig.cmake
+[1.096s] -- Symlinking: /simulation/install/camera/share/camera/cmake/cameraConfig-version.cmake
+[1.102s] -- Symlinking: /simulation/install/camera/share/camera/package.xml
+[1.109s] Invoked command in '/simulation/build/camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /simulation/build/camera
