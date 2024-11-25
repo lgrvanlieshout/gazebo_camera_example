@@ -3,14 +3,15 @@ This repository is for exhibiting my files for a stackexchange question regardin
 
 How to run this code:
 1. Install Docker
-2. cd to this directory
+2. Clone this repository
+3. cd to this directory
 
 **If you want to run this with Gazebo Harmonic:**
 
-3. ```docker compose build gz_cam_harmonic```
-4. ```docker compose up gz_cam_harmonic```
+4. ```docker compose build gz_cam_harmonic```
+5. ```docker compose up gz_cam_harmonic```
 
 **If you want to run this with Gazebo Garden:**
 
-5. ```docker compose build gz_cam_garden```
-6. ```docker compose up gz_cam_garden``` 
+6. ```docker compose build gz_cam_garden```
+7. ```docker compose up gz_cam_garden``` 
