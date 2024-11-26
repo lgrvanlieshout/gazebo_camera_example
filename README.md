@@ -6,10 +6,10 @@ How to run this code:
 2. Clone this repository
 3. cd to this directory
 
-**If you want to run this with Gazebo Harmonic:**
+**If you want to run this with Gazebo Fortress:**
 
-4. ```docker compose build gz_cam_harmonic```
-5. ```docker compose up gz_cam_harmonic```
+4. ```docker compose build gz_cam_fortress```
+5. ```docker compose up gz_cam_fortress```
 
 **If you want to run this with Gazebo Garden:**
 
