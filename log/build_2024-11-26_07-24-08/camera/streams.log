@@ -1,0 +1,52 @@
+[0.009s] Invoking command in '/simulation/build/camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /simulation/src/camera -DCMAKE_INSTALL_PREFIX=/simulation/install/camera
+[0.033s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.324s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.336s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.339s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.348s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.459s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.500s] -- Found ros_gz: 0.244.15 (/opt/ros/humble/share/ros_gz/cmake)
+[0.501s] -- Found ros_gz_sim: 0.244.15 (/opt/ros/humble/share/ros_gz_sim/cmake)
+[0.530s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.531s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.782s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.883s] -- Found ros_gz_bridge: 0.244.15 (/opt/ros/humble/share/ros_gz_bridge/cmake)
+[0.929s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.135s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.917s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[1.917s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.015s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.016s] -- Added test 'lint_cmake' to check CMake code style
+[2.018s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.021s] -- Added test 'xmllint' to check XML markup files
+[2.024s] -- Configuring done
+[2.037s] -- Generating done
+[2.040s] -- Build files have been written to: /simulation/build/camera
+[2.055s] Invoked command in '/simulation/build/camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /simulation/src/camera -DCMAKE_INSTALL_PREFIX=/simulation/install/camera
+[2.056s] Invoking command in '/simulation/build/camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /simulation/build/camera -- -j20 -l20
+[2.217s] Invoked command in '/simulation/build/camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /simulation/build/camera -- -j20 -l20
+[2.372s] Invoking command in '/simulation/build/camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /simulation/build/camera
+[2.405s] -- Install configuration: ""
+[2.408s] -- Execute custom install script
+[2.410s] -- Symlinking: /simulation/install/camera/share/camera/description/cam_world.sdf
+[2.451s] -- Up-to-date symlink: /simulation/install/camera/share/camera/description/camera.urdf.xacro
+[2.451s] -- Up-to-date symlink: /simulation/install/camera/share/camera/description/materials.xacro
+[2.451s] -- Up-to-date symlink: /simulation/install/camera/share/camera/description/shapes.xacro
+[2.452s] -- Up-to-date symlink: /simulation/install/camera/share/camera/launch/camera.launch.py
+[2.454s] -- Up-to-date symlink: /simulation/install/camera/share/camera/worlds/ground_plane.world
+[2.460s] -- Up-to-date symlink: /simulation/install/camera/share/ament_index/resource_index/package_run_dependencies/camera
+[2.461s] -- Up-to-date symlink: /simulation/install/camera/share/ament_index/resource_index/parent_prefix_path/camera
+[2.462s] -- Up-to-date symlink: /simulation/install/camera/share/camera/environment/ament_prefix_path.sh
+[2.462s] -- Up-to-date symlink: /simulation/install/camera/share/camera/environment/ament_prefix_path.dsv
+[2.463s] -- Up-to-date symlink: /simulation/install/camera/share/camera/environment/path.sh
+[2.464s] -- Up-to-date symlink: /simulation/install/camera/share/camera/environment/path.dsv
+[2.464s] -- Up-to-date symlink: /simulation/install/camera/share/camera/local_setup.bash
+[2.465s] -- Up-to-date symlink: /simulation/install/camera/share/camera/local_setup.sh
+[2.465s] -- Up-to-date symlink: /simulation/install/camera/share/camera/local_setup.zsh
+[2.465s] -- Up-to-date symlink: /simulation/install/camera/share/camera/local_setup.dsv
+[2.466s] -- Symlinking: /simulation/install/camera/share/camera/package.dsv
+[2.501s] -- Up-to-date symlink: /simulation/install/camera/share/ament_index/resource_index/packages/camera
+[2.502s] -- Up-to-date symlink: /simulation/install/camera/share/camera/cmake/cameraConfig.cmake
+[2.503s] -- Up-to-date symlink: /simulation/install/camera/share/camera/cmake/cameraConfig-version.cmake
+[2.503s] -- Up-to-date symlink: /simulation/install/camera/share/camera/package.xml
+[2.510s] Invoked command in '/simulation/build/camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /simulation/build/camera

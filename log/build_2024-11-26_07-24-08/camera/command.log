@@ -1,0 +1,6 @@
+Invoking command in '/simulation/build/camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /simulation/src/camera -DCMAKE_INSTALL_PREFIX=/simulation/install/camera
+Invoked command in '/simulation/build/camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /simulation/src/camera -DCMAKE_INSTALL_PREFIX=/simulation/install/camera
+Invoking command in '/simulation/build/camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /simulation/build/camera -- -j20 -l20
+Invoked command in '/simulation/build/camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /simulation/build/camera -- -j20 -l20
+Invoking command in '/simulation/build/camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /simulation/build/camera
+Invoked command in '/simulation/build/camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /simulation/build/camera

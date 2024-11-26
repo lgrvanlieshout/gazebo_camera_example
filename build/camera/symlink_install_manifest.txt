@@ -1,3 +1,4 @@
+/simulation/install/camera/share/camera/description/cam_world.sdf
 /simulation/install/camera/share/camera/description/camera.urdf.xacro
 /simulation/install/camera/share/camera/description/materials.xacro
 /simulation/install/camera/share/camera/description/shapes.xacro

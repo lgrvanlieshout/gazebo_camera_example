@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.000109] (camera) JobQueued: {'identifier': 'camera', 'dependencies': OrderedDict()}
+[0.000144] (camera) JobStarted: {'identifier': 'camera'}
+[0.006842] (camera) JobProgress: {'identifier': 'camera', 'progress': 'cmake'}
+[0.007480] (camera) Command: {'cmd': ['/usr/bin/cmake', '/simulation/src/camera', '-DCMAKE_INSTALL_PREFIX=/simulation/install/camera'], 'cwd': '/simulation/build/camera', 'env': OrderedDict([('HOSTNAME', '7b2b277ad98e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', ''), ('PWD', '/simulation/build/camera'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/local/lib/python3.12/dist-packages:/opt/ros/humble/lib/python3.12/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.033342] (camera) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099653] (-) TimerEvent: {}
+[0.200621] (-) TimerEvent: {}
+[0.301653] (-) TimerEvent: {}
+[0.323618] (camera) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.335805] (camera) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.339245] (camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.347220] (camera) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.401910] (-) TimerEvent: {}
+[0.458247] (camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500449] (camera) StdoutLine: {'line': b'-- Found ros_gz: 0.244.15 (/opt/ros/humble/share/ros_gz/cmake)\n'}
+[0.500712] (camera) StdoutLine: {'line': b'-- Found ros_gz_sim: 0.244.15 (/opt/ros/humble/share/ros_gz_sim/cmake)\n'}
+[0.501991] (-) TimerEvent: {}
+[0.529827] (camera) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.531161] (camera) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.602429] (-) TimerEvent: {}
+[0.703509] (-) TimerEvent: {}
+[0.781753] (camera) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.803895] (-) TimerEvent: {}
+[0.883440] (camera) StdoutLine: {'line': b'-- Found ros_gz_bridge: 0.244.15 (/opt/ros/humble/share/ros_gz_bridge/cmake)\n'}
+[0.904074] (-) TimerEvent: {}
+[0.928628] (camera) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.004778] (-) TimerEvent: {}
+[1.105787] (-) TimerEvent: {}
+[1.135397] (camera) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.206059] (-) TimerEvent: {}
+[1.306959] (-) TimerEvent: {}
+[1.407749] (-) TimerEvent: {}
+[1.508573] (-) TimerEvent: {}
+[1.609462] (-) TimerEvent: {}
+[1.710323] (-) TimerEvent: {}
+[1.810963] (-) TimerEvent: {}
+[1.911275] (-) TimerEvent: {}
+[1.916687] (camera) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[1.917048] (camera) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.011562] (-) TimerEvent: {}
+[2.014917] (camera) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.016270] (camera) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.017411] (camera) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.020805] (camera) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.023745] (camera) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.036510] (camera) StdoutLine: {'line': b'-- Generating done\n'}
+[2.039960] (camera) StdoutLine: {'line': b'-- Build files have been written to: /simulation/build/camera\n'}
+[2.054754] (camera) CommandEnded: {'returncode': 0}
+[2.055671] (camera) JobProgress: {'identifier': 'camera', 'progress': 'build'}
+[2.055717] (camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/simulation/build/camera', '--', '-j20', '-l20'], 'cwd': '/simulation/build/camera', 'env': OrderedDict([('HOSTNAME', '7b2b277ad98e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', ''), ('PWD', '/simulation/build/camera'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/local/lib/python3.12/dist-packages:/opt/ros/humble/lib/python3.12/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.111845] (-) TimerEvent: {}
+[2.212740] (-) TimerEvent: {}
+[2.216646] (camera) CommandEnded: {'returncode': 0}
+[2.312974] (-) TimerEvent: {}
+[2.330998] (camera) JobProgress: {'identifier': 'camera', 'progress': 'install'}
+[2.370883] (camera) Command: {'cmd': ['/usr/bin/cmake', '--install', '/simulation/build/camera'], 'cwd': '/simulation/build/camera', 'env': OrderedDict([('HOSTNAME', '7b2b277ad98e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', ''), ('PWD', '/simulation/build/camera'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/local/lib/python3.12/dist-packages:/opt/ros/humble/lib/python3.12/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.405178] (camera) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.407665] (camera) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.409333] (camera) StdoutLine: {'line': b'-- Symlinking: /simulation/install/camera/share/camera/description/cam_world.sdf\n'}
+[2.413260] (-) TimerEvent: {}
+[2.449994] (camera) StdoutLine: {'line': b'-- Up-to-date symlink: /simulation/install/camera/share/camera/description/camera.urdf.xacro\n'}
+[2.451035] (camera) StdoutLine: {'line': b'-- Up-to-date symlink: /simulation/install/camera/share/camera/description/materials.xacro\n'}
+[2.451370] (camera) StdoutLine: {'line': b'-- Up-to-date symlink: /simulation/install/camera/share/camera/description/shapes.xacro\n'}
+[2.451984] (camera) StdoutLine: {'line': b'-- Up-to-date symlink: /simulation/install/camera/share/camera/launch/camera.launch.py\n'}
+[2.453246] (camera) StdoutLine: {'line': b'-- Up-to-date symlink: /simulation/install/camera/share/camera/worlds/ground_plane.world\n'}
+[2.459270] (camera) StdoutLine: {'line': b'-- Up-to-date symlink: /simulation/install/camera/share/ament_index/resource_index/package_run_dependencies/camera\n'}
+[2.460248] (camera) StdoutLine: {'line': b'-- Up-to-date symlink: /simulation/install/camera/share/ament_index/resource_index/parent_prefix_path/camera\n'}
+[2.461191] (camera) StdoutLine: {'line': b'-- Up-to-date symlink: /simulation/install/camera/share/camera/environment/ament_prefix_path.sh\n'}
+[2.462210] (camera) StdoutLine: {'line': b'-- Up-to-date symlink: /simulation/install/camera/share/camera/environment/ament_prefix_path.dsv\n'}
+[2.462649] (camera) StdoutLine: {'line': b'-- Up-to-date symlink: /simulation/install/camera/share/camera/environment/path.sh\n'}
+[2.463356] (camera) StdoutLine: {'line': b'-- Up-to-date symlink: /simulation/install/camera/share/camera/environment/path.dsv\n'}
+[2.463907] (camera) StdoutLine: {'line': b'-- Up-to-date symlink: /simulation/install/camera/share/camera/local_setup.bash\n'}
+[2.464604] (camera) StdoutLine: {'line': b'-- Up-to-date symlink: /simulation/install/camera/share/camera/local_setup.sh\n'}
+[2.465123] (camera) StdoutLine: {'line': b'-- Up-to-date symlink: /simulation/install/camera/share/camera/local_setup.zsh\n'}
+[2.465426] (camera) StdoutLine: {'line': b'-- Up-to-date symlink: /simulation/install/camera/share/camera/local_setup.dsv\n'}
+[2.465896] (camera) StdoutLine: {'line': b'-- Symlinking: /simulation/install/camera/share/camera/package.dsv\n'}
+[2.500489] (camera) StdoutLine: {'line': b'-- Up-to-date symlink: /simulation/install/camera/share/ament_index/resource_index/packages/camera\n'}
+[2.501560] (camera) StdoutLine: {'line': b'-- Up-to-date symlink: /simulation/install/camera/share/camera/cmake/cameraConfig.cmake\n'}
+[2.502626] (camera) StdoutLine: {'line': b'-- Up-to-date symlink: /simulation/install/camera/share/camera/cmake/cameraConfig-version.cmake\n'}
+[2.502972] (camera) StdoutLine: {'line': b'-- Up-to-date symlink: /simulation/install/camera/share/camera/package.xml\n'}
+[2.509778] (camera) CommandEnded: {'returncode': 0}
+[2.513784] (-) TimerEvent: {}
+[2.614563] (-) TimerEvent: {}
+[2.706578] (camera) JobEnded: {'identifier': 'camera', 'rc': 0}
+[2.709804] (-) EventReactorShutdown: {}

@@ -16,41 +16,35 @@
   
   <link name="camera_lens">
     <xacro:cylinder_visual radius="${camera_height/2 - 0.01}" height="${0.02}" color="red">
-      <origin xyz="0.01 0 0" rpy="0 0 0 "/>
+      <origin xyz="0.01 0 0" rpy="${pi/2} 0 ${pi/2} "/>
     </xacro:cylinder_visual>
   </link>
   
   <joint name="camera_optical_joint" type="fixed">
     <parent link="base_link"/>
     <child link="camera_lens"/>
-    <origin xyz="${camera_length/2} 0 ${camera_height/2}" rpy="${-pi/2} 0 ${-pi/2}" />
+    <origin xyz="${camera_length/2} 0 ${camera_height/2}" rpy="0 0 0" />
   </joint>
   
-  <gazebo reference="base_link">
-    <sensor name="camera" type="camera">
-      <pose> 0 0 0 0 0 0 </pose>
-      <visualize>true</visualize>
-      <update_rate>10</update_rate>
-      <camera>
-        <horizontal_fov>1.1</horizontal_fov>
-        <image>
-          <format>R8G8B8</format>
-          <width>640</width>
-          <height>480</height>
-        </image>
-        <clip>
-          <near>0.05</near>
-          <far>8.0</far>
-        </clip>
-      </camera>
-      <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
-        <alwaysOn>true</alwaysOn>
-        <cameraName>camera</cameraName>
-        <imageTopicName>image_raw</imageTopicName>
-        <cameraInfoTopicName>camera_info</cameraInfoTopicName>
-        <frame_name>camera_lens</frame_name>
-      </plugin>
-    </sensor>
+  <gazebo reference="camera_lens">
+      <sensor name="camera" type="camera">
+        <always_on>1</always_on>
+        <topic>camera</topic>
+        <visualize>true</visualize>
+        <update_rate>10</update_rate>
+        <camera>
+          <horizontal_fov>1.1</horizontal_fov>
+          <image>
+            <format>R8G8B8</format>
+            <width>640</width>
+            <height>480</height>
+          </image>
+          <clip>
+            <near>0.05</near>
+            <far>10.0</far>
+          </clip>
+        </camera>
+      </sensor>
   </gazebo>
   
 </robot>
